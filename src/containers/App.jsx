@@ -1,27 +1,19 @@
 import React from 'react';
-import BackConnect from '../components/BackConnect';
+import BackConnect from '../components/BackConnect'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <section>
+import '../assets/styles/App.scss';
+import '../assets/styles/globals.scss';
+import '../assets/styles/_reset.scss';
+
+const App = () => (
+  <div className="App">
+    <main className="main-container">
+      <h1>Some stuff here</h1>
+      <section className="wrapper">
         <BackConnect />
       </section>
-    </div>
-  );
-}
+    </main>
+  </div>
+);
 
 export default App;
