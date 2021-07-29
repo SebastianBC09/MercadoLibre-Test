@@ -11,7 +11,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianBC09/MercadoLibre-Test"
+  },
   "keywords": [
     "Mercado Libre",
     "React",
@@ -19,6 +22,9 @@
   ],
   "author": "Sebastian Ballen",
   "license": "MIT",
+  "bugs": {
+    "url": "hhttps://github.com/SebastianBC09/MercadoLibre-Test/issues "
+  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -34,5 +40,17 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
