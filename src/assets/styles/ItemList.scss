@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+hr {
+  height: 0;
+  border-top: 1px solid $color-light-grey;
+  border-bottom:  1px solid $color-light-grey;
+  color: $color-light-grey;
+  margin-left: $smallestMargin;
+  margin-right: $smallestMargin;
+}
