@@ -1,0 +1,21 @@
+@import './_variables.scss';
+
+.navbar-container {
+  display: grid;
+  grid-template-columns: 18% 74% 8%;
+  grid-template-rows: 100%;
+  background:$color-primary;
+  height: 70px;
+}
+
+.navbar-brand {
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: flex-end;
+  padding-right: 25px;
+}
+
+.navbar-input {
+  grid-column: 2/3;
+  align-self: center;
+}
