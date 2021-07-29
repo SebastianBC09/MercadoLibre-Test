@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.item-container {
+  display: grid;
+  grid-template-columns: 21% 58% 21%;
+  grid-template-rows: 100%;
+}
+
+.item-image {
+  padding: $smallestPadding;
+  img {
+    height: 180px;
+    width: 180px;
+    border-radius: $border-radius-size;
+  }
+}
+
+.item-info {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: 100%;
+  .product-price {
+    grid-row: 1/2;
+    align-self: flex-end;
+    font-size: $productTitle;
+    padding: 0;
+    margin: 0;
+  }
+  .product-info {
+    grid-row: 2/3;
+    font-size: $searchbarText;
+    font-family: $fontTitle;
+    padding-top: $largestPadding;
+  }
+}
+
+.item-location {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: 100%;
+  .product-location {
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: flex-end;
+    font-size: $productLocation;
+    font-family: $fontTitle;
+    padding: 0;
+  }
+}
