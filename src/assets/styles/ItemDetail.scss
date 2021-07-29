@@ -1,0 +1,75 @@
+@import './_variables.scss';
+
+.product-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 72% 27% 28%;
+}
+
+.product-image {
+  grid-row: 1/2;
+  padding: $smallestPadding;
+  img {
+    width: 680px;
+    border-radius: $border-radius-size;
+  }
+}
+
+.product-info {
+  display: grid;
+  grid-template-rows: 10% 15% 25% 10%;
+  grid-template-columns: 100%;
+  grid-row: 1/2;
+  .product-sales {
+    grid-row: 1/2;
+    font-family: $fontTitle;
+    font-size: $productSubtitle;
+    font-weight: 400;
+    padding-top: $largestPadding;
+  }
+  .product-title {
+    grid-row: 2/3;
+    font-family: $fontTitle;
+    font-size: $productTitle;
+    font-weight: 600;
+    padding-top: $smallestPadding;
+    padding-right: 50px;
+  }
+  .product-price {
+    grid-row: 3/4;
+    font-family: $fontTitle;
+    font-size: $priceTitle;
+    font-weight: 500;
+    padding-top: $largestPadding;
+    padding-bottom: $largestPadding;
+    margin: 0;
+  }
+  .purchase-btn {
+    button {
+      color: $color-secondary;
+      background: $color-blue;
+      border: none;
+      border-radius: $border-radius-size;
+      height: 36px;
+      width: 260px;
+    }
+  }
+}
+
+.product-description {
+  grid-row:3/4;
+  padding-left: $largestPadding;
+  .desc-title {
+    font-family: $fontTitle;
+    font-size: $descriptionTitle;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    padding-bottom: $largestPadding;
+  }
+  .description {
+    font-family: $fontTitle;
+    font-size: $descriptionInfo;
+    padding-bottom: $largestPadding;
+  }
+}
