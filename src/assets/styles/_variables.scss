@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+//Colors
+$color-primary: #FFE600;
+$color-secondary: #EEEEEE;
+$color-dark-charcoal: #333333;
+$color-dark-grey: #666666;
+$color-light-grey: #999999;
+$color-blue: #3483FA;
+
+//Radius
+$border-radius-size: 4px;
+
+//Size
+$base: 0.4rem;
+
+//Text Sizes
+$searchbarText: $base * 4.5;
+$productLocation: $base * 3;
+$productTitle: $base * 6;
+$productSubtitle: $base * 3.5;
+$priceTitle: $base * 11.5;
+$descriptionTitle: $base * 7;
+$descriptionInfo: $base * 4;
+
+//Margins
+$largestMargin: 32px;
+$smallestMargin: 16px;
+
+//Paddings
+$largestPadding: 32px;
+$smallestPadding: 16px;
+
+//Font Family
+$fontTitle: 'Montserrat', sans-serif;
