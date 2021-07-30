@@ -1,6 +1,6 @@
 @import './_variables.scss';
 
-.search {
+.input {
   font-size: $searchbarText;
   font-family: $fontTitle;
   width: 90%;
@@ -10,7 +10,7 @@
   padding: 9px;
 }
 
-.search:focus {
+.input:focus {
   outline: none;
 }
 

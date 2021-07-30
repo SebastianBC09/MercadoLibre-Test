@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../assets/static/images/iPhone_Touch.jpg';
+import Picture from '../assets/static/images/iPod_Touch.jpg';
 import '../assets/styles/ItemCard.scss';
 
 const ItemCard = () => (
@@ -15,6 +15,6 @@ const ItemCard = () => (
       <h2 className="product-location">Capital Federal</h2>
     </section>
   </section>
-)
+);
 
 export default ItemCard;
