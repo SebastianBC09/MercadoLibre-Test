@@ -3,7 +3,7 @@ import Icon from '../assets/static/icons/ic_Search.png';
 import '../assets/styles/SearchInput.scss';
 
 const SearchInput = () => (
-  <form method="GET" action="/test" id="search_input">
+  <form method="GET" action="/items">
     <input
       id="search"
       type="text"

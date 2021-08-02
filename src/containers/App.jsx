@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import ItemCard from '../components/ItemCard';
+import ItemList from '../components/ItemList';
 
 import '../assets/styles/App.scss';
 import '../assets/styles/globals.scss';
@@ -14,7 +14,7 @@ const App = () => (
       <Navbar />
       <main className="main-container">
         <section className="wrapper">
-          <ItemCard />
+          <ItemList />
         </section>
       </main>
     </div>
