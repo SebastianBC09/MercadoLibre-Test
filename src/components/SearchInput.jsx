@@ -8,7 +8,6 @@ const SearchInput = () => (
       id="search"
       type="text"
       name="search"
-      value="item"
       placeholder="Nunca dejes de buscar"
       className="input"
     />
