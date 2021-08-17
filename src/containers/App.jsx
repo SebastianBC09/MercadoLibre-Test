@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import ItemList from '../components/ItemList';
+import Api from '../components/Api';
 
 import '../assets/styles/App.scss';
 import '../assets/styles/globals.scss';
@@ -14,7 +14,8 @@ const App = () => (
       <Navbar />
       <main className="main-container">
         <section className="wrapper">
-          <ItemList />
+          <h1>Testing</h1>
+          <Api />
         </section>
       </main>
     </div>
